@@ -1,0 +1,82 @@
+.main-wrap {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   color: black;
+   font-family: "Rancho", cursive, sans-serif;
+}
+
+.container {
+   margin: 20px;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+   padding: 0;
+   background-color: #eef4ff;
+   max-width: 725px;
+}
+
+.back-btn {
+   background-color: #eef4ff;
+   color: black;
+   box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+   display: inline-block;
+   padding: 5px 8px;
+}
+
+button {
+   border: none;
+   background-color: #eef4ff;
+   color: black;
+   margin: 0;
+   padding: 0px 5px;
+}
+
+.headers{
+   padding: 10px;
+   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.content{
+   /* padding: 20px; */
+}
+
+.title{
+   font-weight: bolder;
+   font-size: 29px;
+   text-align: center;
+   padding: 20px 0px 10px;
+}
+img{
+   height: auto;
+   width: 250px;
+}
+.main{
+   display: flex;
+   padding: 20px;
+}
+.details{
+   padding: 10px;
+   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+   text-align: center;
+}
+.details-wrap{
+   display: flex;
+}
+.details-left{
+   text-align: right;
+   width: 30%;
+   margin: 20px 0px;
+   border-right: 1px solid grey;
+}
+.left{
+   padding: 10px;
+   box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+.right{
+   padding: 10px;
+   box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+.details-right{
+   text-align: left;
+   margin: 20px 0px;
+   width: 70%;
+}

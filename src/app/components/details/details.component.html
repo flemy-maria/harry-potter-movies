@@ -1,0 +1,34 @@
+<div class="main-wrap">
+    <div class="container">
+        <div class="headers">
+            <div (click)="navigateToList()" class="back-btn">
+                <i class="fa fa-home"></i>
+                <button>Back</button>
+            </div>
+            <div class="title">{{details.title}}</div>
+        </div>
+        <div class="content">
+            <div class="main">
+                <img src={{details.poster}}>
+                <div><b>Summary :</b> {{details.summary}}</div>
+            </div>
+            <div class="details">Details</div>
+            <div class="details-wrap">
+                <div class="details-left">
+                    <div class="left">Box office</div>
+                    <div class="left">Budget</div>
+                    <div class="left">Duration</div>
+                    <div class="left">Producers</div>
+                    <div class="left">Cinematographers</div>
+                </div>
+                <div class="details-right">
+                    <div class="right">{{details.box_office | currencyFormat}}</div>
+                    <div class="right">{{details.budget | currencyFormat}}</div>
+                    <div class="right">{{details.duration | timeFormat}}</div>
+                    <div class="right">{{details.producers}}</div>
+                    <div class="right">{{details.cinematographers}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

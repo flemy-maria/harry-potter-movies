@@ -1,0 +1,79 @@
+.main-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family: "Rancho", cursive, sans-serif;
+}
+
+.container {
+    margin: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding: 0;
+    background-color: #eef4ff;
+}
+
+.headers {
+    font-size: 5rem;
+    font-weight: bolder;
+    height: 130px;
+    font-weight: bolder;
+    height: 100px;
+    border-radius: 12px 12px 0 0;
+    font-size: 50px;
+    text-align: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.filter-title {
+    font-weight: bold;
+}
+
+.filter-container {
+    padding: 10px;
+}
+
+.input-wrap {
+    display: inline-block;
+}
+
+.list-item-wrap {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.list-item-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail {
+    margin-right: 20px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.details-content {
+    display: flex;
+}
+
+label {
+    font-size: 20px;
+}
+
+input {
+    background-color: #eef4ff;
+    color: black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+button {
+    background-color: #eef4ff;
+    color: black;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+
+}
